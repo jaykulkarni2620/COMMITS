@@ -17,14 +17,17 @@
 
 
 26 SEP
+
 Completed work 
 - will understand the fund my degree flow 
 - did a tweet.
 - searched courses similar to "Code with Mosh"
+
 Today
 - will do a tweet.
 - will make a video on fund my degree flow, learning flow of user and admin course flow 
 - once all done will share a link to neelam maam to checking all the things.
+
 Pending 
 - PPT
 
