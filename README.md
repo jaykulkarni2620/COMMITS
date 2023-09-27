@@ -31,3 +31,12 @@ Today
 Pending 
 - PPT
 
+
+27 SEP
+
+TODAY 
+- will last time watch Code with mosh tutorial and making notes not taking whole day (Timeline 11:00am to 3:00pm) 
+- will try to create random project to practise and get clartiy about backend side.
+- will not wasting my time in tutorial side, till now i was worked as backend devloper so i definetly understand it and i will do it.
+- will do a tweet.
+- i fully focused on backend side, will do my best.
