@@ -39,6 +39,8 @@ TODAY
 - will not wasting my time in tutorial side, till now i was worked as backend devloper so i definetly understand it and i will do it.
 - will do a tweet.
 - i fully focused on backend side, will do my best.
+- Will again review GCX Frontend side code.
+- 
 
 
 
