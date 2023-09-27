@@ -32,6 +32,7 @@ Pending
 - PPT
 
 27 SEP
+
 TODAY 
 - will last time watch Code with mosh tutorial and making notes not taking whole day (Timeline 11:00am to 3:00pm) 
 - will try to create random project to practise and get clartiy about backend side.
