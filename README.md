@@ -1,46 +1,35 @@
-# COMMITS
+BlockDegree node-v14.21.3
 
-15 SEP 
+- npm i redis - for client error
+- npm i gulp
+- .nvmrc :- to automatically switch to the specified Node. js version when you navigate to the project directory
 
+- # If you are facing issue realted to (POST /api/getAuthStatus 500 22.966 ms - 9532)
+- fill the 'secret' key in app.js file.
 
-- make a document on function and features of blockdegree old and new version.
-- will do a tweet.
-- if function and features document is completed then will start new task which is [difference between old and new bg]
+- talked about package.lock file :- 
+to ensure that the same dependencies are installed consistently across different environments, such as development and production environments.
 
+- while running new-admin on same port we are running npm run build command that time facing some error 
 
-25 SEP
+- Error MacOS Monterey 12.3 no longer has Python 2.7 installed, finding it very difficult to use sqlite3 
 
-- will do a tweet.
-- will understand the my degree flow .
-- will start making ppt.
-- once all done will share a link to neelam maam to checking all the things.
+solve with this {
+-brew install pyenv
+-pyenv install 2.7.18 and then pyenv global 2.7.18
+-export PATH="${HOME}/.pyenv/shims:${PATH}"
+-npm install sqlite3
+}
 
+- Error Node Sass could not find a binding for your current environment
+solve with this {
+npm rebuild node-sass
+}
 
-26 SEP
-
-Completed work 
-- will understand the fund my degree flow 
-- did a tweet.
-- searched courses similar to "Code with Mosh"
-
-Today
-- will do a tweet.
-- will make a video on fund my degree flow, learning flow of user and admin course flow 
-- once all done will share a link to neelam maam to checking all the things.
-
-Pending 
-- PPT
-
-27 SEP
-
-TODAY 
-- will last time watch Code with mosh tutorial and making notes not taking whole day (Timeline 11:00am to 3:00pm) 
-- i try to solve blockdegree issue on my side, at least i try to solve one issue toaday
-- will not wasting my time in tutorial side, till now i was worked as backend devloper so i definetly understand it and i will do it.
-- will do a tweet.
-- i fully focused on backend side, will do my best.
-- Will again review GCX Frontend side code.
-- 
+.env 
+{
+    posted wrong admin id in .env file
+}
 
 
 
