@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #F8FBFF !important;
+    font-family:'Fira-sans',sans-serif;
+}
+
+article, input, select {
+    width: 100%;
+}
+
+input, button, select, p, h1, h2, h3, h4, h5, h6, span, a, label {
+    font-family: 'Fira Sans', sans-serif;
+}
+a {
+    color: #007AFF;
+    cursor: pointer;
+}
+nav button:hover
+{
+    background-color:#007AFF;
+    color:white;
+    border:1px solid #007AFF;
+}
+.bs-container {
+    background-color: #bababa;
+    max-width: 800px;
+    margin: auto;
+    width: 90%;
+    --bs-gutter-x: 0 !important;
+    display: flex;
+    /* min-height: 100vh; */
+    height: 600px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 50px;
+}
+
+#verifyForm {
+    max-width: 700px;
+    width:600px;
+}
+.header-text{
+    position: absolute;
+    top: 70px;
+}
+
+.bs-btn {
+    border-radius: 8px;
+    font-weight: 700;
+    position: relative;
+    width: 110px;
+    background-color: #007AFF;
+    border: 1px solid #007AFF;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+}
+
+.bs-btn-light {
+    border-radius: 8px;
+    font-weight: 700;
+    position: relative;
+    background-color: #F7F8FA;
+    color: #050505;
+    border: 1px solid #F7F8FA;
+    padding: 16px;
+    font-size: 14px;
+}
+
+.bs-btn-linear {
+    border-radius: 8px;
+    font-weight: 700;
+    position: relative;
+    background-color: #fff;
+    color: #007AFF;
+    border: 1px solid #007AFF;
+    padding: 16px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.bs-btn-linear:hover {
+    background-color: #007AFF;
+    color: #fff;
+    border: 1px solid #007AFF;
+}
+.bs-btn-light-linear {
+    border-radius: 8px;
+    font-weight: 600;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 16px;
+    font-size: 14px;
+}
+
+.bs-btn-small {
+    padding: 4px 10px;
+}
+
+.bs-button-group {
+    display: flex;
+    column-gap: 16px;
+}
+
+.bs-button-group button {
+    width: 100%;
+}
+
+.bs-form-input {
+    margin-bottom: 20px;
+}
+
+.bs-form-input label, .bs-form-button label {
+    margin-bottom: 14px;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+}
+
+.bs-form-button {
+    margin-bottom: 20px;
+}
+
+.bs-select, .bs-input {
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D92A7;
+    border: none;
+    background: rgba(247, 248, 250, 1);
+    padding: 16px 12px;
+    width: 100%;
+}
+
+.bs-input-small {
+    padding: 12px;
+}
+
+.bs-tag {
+    border-radius: 8px;
+    font-weight: 700;
+    position: relative;
+    background-color: #E6EFFB;
+    color: #007AFF;
+    border: none;
+    padding: 4px 12px;
+    font-size: 14px;
+}
+.bs-tag-success {
+    background-color: #B8FFCC;
+    color: #04DE5B;
+}
+.bs-tag-fail {
+    background-color: #ffc282;
+    color: #de2904;
+}
+
+.bs-popup {
+    
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 570px;
+    width: 100%;
+    padding: 40px 15px 30px;
+    min-height: 340px;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 30%);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    text-align: center;
+    z-index: 2;
+}
+
+.bs-popup.active {
+    top: 50%;
+    visibility: visible ;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.bs-popup h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+}
+.bs-popup p {
+    word-break: break-all;
+}
+
+.bs-popup video
+{
+    width:70px;
+    height:70px;
+}
+
+#close-btn
+{
+    margin-top: 50px;
+    /* background-color: #007AFF; */
+    padding: 12px 20px;
+    font-size: 17px;
+    border-radius: 50px;
+    margin-left: 10px;
+    border-color: #007AFF;
+}
+#close-btn:hover
+{
+    background-color: rgb(2, 104, 212);
+}
+
+
+@media screen and (max-width: 600px) {
+    .bs-form-input label, .bs-form-button label {
+        font-size: 12px;
+    }
+    .bs-input, .bs-select {
+        padding: 12px 8px;
+    }
+}

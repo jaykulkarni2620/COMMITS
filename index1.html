@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bs-container ">
+        <h1 class="header-text">Register Yourself</h1>
+    <form action="/" method="POST" id="verifyForm" onsubmit="showLoading()">
+        <div class="bs-form-input">
+            <label for="receiver">First name </label>
+                 <input type="text" id="receiver" class="bs-input"
+                placeholder="Enter your First name" name="receiver" required>
+            
+        </div>    
+        <div class="bs-form-input">
+            <label for="receiver">Last name </label>
+                 <input type="text" id="receiver" class="bs-input"
+                placeholder="Enter your Last name" name="receiver" required>
+            
+        </div>    
+        <div class="bs-form-input">
+            <label for="receiver">Date Of Birth </label>
+                 <input type="date" id="receiver" class="bs-input"name="receiver" required>
+            
+        </div>
+        <div class="bs-form-input">
+            <label for="receiver">Gender:</label>
+                 <input type="radio" id="receiver" class="bs-input"name="1" required>Male
+                 <input type="radio" id="receiver" class="bs-input"name="1" required>Female
+                 <input type="radio" id="receiver" class="bs-input"name="1" required>other<br>
+            
+        </div>
+        <!-- <div class="bs-form-button">
+            <label for="moreXDC">Request Amount</label>
+            <div class="bs-button-group">
+                <button id="Request-1000" type="button" class="bs-btn-light button"
+                    data-value="1000" onClick="hideTwitterOnButton()">1000 XDC
+                </button>
+<input type="number" id="moreXDC" onchange="updateTweetLink()"class="bs-input"
+                    placeholder="Enter your Value" type="number" name="moreXDC" min="1" max="1000" 
+                      onClick="showTwitter();" >
+            </div>
+        </div> -->
+        <!-- <div class="bs-form-input For-button">
+            <div id="myDIV" class="bs-twitter-info" style="display:none">
+                <p>Paste the following content in your <a id="tweet-link" href="https://twitter.com/intent/tweet?text=Requesting%20XDC%20from%20BlocksScan%20faucet.%0AThank%20you%20BlocksScan!.%0A%0A%23BlocksScan%20%23WeAreXDC%20%23XDCNetwork%20%23faucet%20%23XDC%20%23Xinfin
+                    "
+                    
+                    target="_blank">Twitter</a>
+                    
+                    post:<br>
+                    Requesting <span id="result">X</span>  XDC to <span id="receiver-placeholder">[Wallet address]</span><br>
+                    Thank you @BlocksScan!<br>
+                    #BlocksScan #XDCNetwork #Faucet
+                    #WeAreXDC #XDC #XinFin
+                </p> 
+                <label for="twitter">Twitter</label>
+                <input id="twitter" pattern="(https:)\/\/(twitter.com)\/(\w*)\/(status)\/(#!\/)?(\w*)" class="bs-input" name="twitter"
+                    placeholder="Paste your twitter post link" >
+                    
+            </div>
+        </div> -->
+        <div class="bs-form-button">
+            <div class="color">
+            <button id="Request-XDC" type="submit" class="bs-btn bs-request-btn">Register</button>
+                </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
