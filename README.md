@@ -31,5 +31,18 @@ npm rebuild node-sass
     posted wrong admin id in .env file
 }
 
+- result showing wrong in wallet course and wrong question array 
+ soluction 
+ add the question in db using studio3T
+ 
 
+8th Feb 
 
+-added the 
+-new categories
+-the blogs
+-added the courses
+-motivational lines
+-Frequently asked questions
+-On the top of the course page, we'll add a button labeled 'Welcome.' When users click on this button, it will take them on thw Welcome Page
+-enable the "drip content" feature, it means that as an admin, you set the course completion percentage to 20. If the percentage is not met by the user, they won't be able to access the next lectures.
